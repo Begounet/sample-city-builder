@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "new-unity-project": {
+      "source": "unity-technologies/skills",
+      "sourceType": "github",
+      "skillPath": "skills/new-unity-project/SKILL.md",
+      "computedHash": "0061882b32da9f7dcf9a56c0eb3c011890eeb745fa05e25ba424f91607fe0a7e"
+    },
+    "unity": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "unity/SKILL.md",
+      "computedHash": "55ab9fb1d0809ef1d0fd3d70258195e7eb28a67e1c84543cf3cba6325033ad87"
+    },
+    "unity-cli": {
+      "source": "unity-technologies/skills",
+      "sourceType": "github",
+      "skillPath": "skills/unity-cli/SKILL.md",
+      "computedHash": "a8d84fb220e5d7280a962b0176fd78c3b60971b5a92b0cb47ac2ba3d110338b0"
+    },
+    "unity-ecs-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/game-development/skills/unity-ecs-patterns/SKILL.md",
+      "computedHash": "69b09dcd30b88cbb71e5854e05506f8c353a886a15e1ed48ece51d107559cdd8"
+    }
+  }
+}
