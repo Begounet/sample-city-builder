@@ -1,0 +1,2 @@
+# Placeholder for ProjectSettings. Unity writes binary/text files here when the project is opened.
+# Keep this folder under source control but let Unity populate actual settings.

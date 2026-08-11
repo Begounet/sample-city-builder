@@ -4,9 +4,15 @@
 Le joueur construit des bâtiments, fait vivre la ville, puis ajuste ses choix pour maintenir un équilibre entre bonheur, population et revenus.
 
 ## Construction
-- Bâtiments disponibles : maison, centrale électrique, commerce, route
-- Placement libre sans grille imposée
-- Aucune limite maximale de taille pour la ville
+
+### Interface de construction
+Accès via panneau d'outils aux 4 types de bâtiments (maison, centrale, commerce, route). Le placement est libre sans grille imposée.
+
+### Système routier détaillé
+- **Sélection** : Le joueur sélectionne le type "route" dans l'interface de construction des bâtiments.
+- **Traçage** : À partir de la sélection, il peut cliquer sur le terrain ou une route existante pour commencer à tracer la nouvelle route.
+- **Courbe Bézier automatique** : Une fois deux points placés (début et fin), la route suit automatiquement une courbe de Bézier ajustée pour un résultat fluide et esthétique.
+- **Fusion automatique** : Si une route traverse ou rejoint une route existante, celle-ci est fusionnée automatiquement avec le réseau routier existant. Cela génère un ensemble de routes continues et connectées dans toute la ville.
 
 ## Cycle jour/nuit
 - 24h en jeu = 10 minutes en temps réel
