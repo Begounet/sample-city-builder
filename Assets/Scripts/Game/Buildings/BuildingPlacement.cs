@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BuildingPlacement : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class BuildingPlacement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Mouse.current?.leftButton.wasPressedThisFrame == true)
         {
             // TODO: raycast ground and place preview/confirm placement
         }

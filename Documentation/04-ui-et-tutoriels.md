@@ -6,6 +6,12 @@ L’interface doit rester simple et épurée, avec :
 - une zone d’information sur le bâtiment sélectionné
 - une barre de ressources globales (bonheur, population, argent)
 
+Le projet adopte UI Toolkit comme approche principale de développement d’interface runtime :
+- utiliser `UIDocument` pour attacher l’UI à la scène
+- construire les écrans avec UXML
+- styliser avec USS
+- piloter les interactions via `VisualElement`, `Button.clicked`, et des classes C# dédiées
+
 ## Style visuel
 - Minimaliste
 - Joyeux et coloré

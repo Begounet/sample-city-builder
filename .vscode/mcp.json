@@ -1,0 +1,19 @@
+{
+	"servers": {
+		"my-unity-mcp-server-4f44bf00": {
+			"type": "stdio",
+			"command": "unity",
+			"args": [
+				"mcp"
+			]
+		},
+		"notionApi": {
+			"command": "npx",
+			"args": ["-y", "@notionhq/notion-mcp-server"],
+			"env": {
+				"NOTION_TOKEN": "${env:NOTION_TOKEN}"
+			}
+		}
+	},
+	"inputs": []
+}
